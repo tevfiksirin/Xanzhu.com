@@ -32,28 +32,22 @@ export default defineNuxtConfig({
         file: "en.json",
       },
       {
-        code: "ko",
-        iso: "ko",
-        name: "한국어",
-        file: "ko.json",
-      },
-      {
-        code: "zh",
-        iso: "zh",
-        name: "中文",
-        file: "zh.json",
+        code: "tr",
+        iso: "tr",
+        name: "Türkçe",
+        file: "tr.json",
       },
     ],
     detectBrowserLanguage: {
       useCookie: true,
-      cookieKey: "xanzhu-3",
+      cookieKey: "bukalip-3",
       redirectOn: "root",
     },
   },
 
   // Sitemap V3 Syntax
   site: {
-    url: "https://xanzhu.com",
+    url: "https://bukalip.com",
   },
 
   sitemap: {
@@ -72,10 +66,7 @@ export default defineNuxtConfig({
     "/blog/**": {
       isr: 3000,
     },
-    "/ko/blog/**": {
-      isr: 3000,
-    },
-    "/zh/blog/**": {
+    "/tr/blog/**": {
       isr: 3000,
     },
   },
